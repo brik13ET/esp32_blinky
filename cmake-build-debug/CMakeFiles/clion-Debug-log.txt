@@ -1,0 +1,55 @@
+D:\ESP\tools\cmake\3.24.0\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=D:/CLion/bin/ninja/win/x64/ninja.exe -G Ninja -S D:\Git\esp\scan -B D:\Git\esp\scan\cmake-build-debug
+-- IDF_TARGET not set, using default target: esp32
+-- Found Git: D:/Sublime Merge/Git/cmd/git.exe (found version "2.39.1.windows.1") 
+-- The C compiler identification is GNU 12.2.0
+-- The CXX compiler identification is GNU 12.2.0
+-- The ASM compiler identification is GNU
+-- Found assembler: D:/ESP/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc.exe
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: D:/ESP/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: D:/ESP/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- git rev-parse returned 'fatal: not a git repository (or any of the parent directories): .git'
+-- Could not use 'git describe' to determine PROJECT_VER.
+-- Building ESP-IDF components for target esp32
+-- Checking Python dependencies...
+Python requirements are satisfied.
+Constraint file: D:/ESP\espidf.constraints.v5.1.txt
+Requirement files:
+ - D:\ESP\framework\tools\requirements\requirements.core.txt
+Python being checked: D:\ESP\python_env\idf5.1_py3.12_env\Scripts\python.exe
+-- Project sdkconfig file D:/Git/esp/scan/sdkconfig
+Compiler supported targets: xtensa-esp32-elf
+
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Check size of time_t
+-- Check size of time_t - done
+-- Found Python3: D:/Python312/python.exe (found version "3.12.1") found components: Interpreter 
+-- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS
+-- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS - Success
+-- App "scan" version: 1
+-- Adding linker script D:/Git/esp/scan/cmake-build-debug/esp-idf/esp_system/ld/memory.ld
+-- Adding linker script D:/ESP/framework/components/esp_system/ld/esp32/sections.ld.in
+-- Adding linker script D:/ESP/framework/components/esp_rom/esp32/ld/esp32.rom.ld
+-- Adding linker script D:/ESP/framework/components/esp_rom/esp32/ld/esp32.rom.api.ld
+-- Adding linker script D:/ESP/framework/components/esp_rom/esp32/ld/esp32.rom.libgcc.ld
+-- Adding linker script D:/ESP/framework/components/esp_rom/esp32/ld/esp32.rom.newlib-data.ld
+-- Adding linker script D:/ESP/framework/components/esp_rom/esp32/ld/esp32.rom.syscalls.ld
+-- Adding linker script D:/ESP/framework/components/esp_rom/esp32/ld/esp32.rom.newlib-funcs.ld
+-- Adding linker script D:/ESP/framework/components/soc/esp32/ld/esp32.peripherals.ld
+-- Components: app_trace app_update bootloader bootloader_support bt cmock console cxx driver efuse esp-tls esp_adc esp_app_format esp_coex esp_common esp_eth esp_event esp_gdbstub esp_hid esp_http_client esp_http_server esp_https_ota esp_https_server esp_hw_support esp_lcd esp_local_ctrl esp_mm esp_netif esp_netif_stack esp_partition esp_phy esp_pm esp_psram esp_ringbuf esp_rom esp_system esp_timer esp_wifi espcoredump esptool_py fatfs freertos hal heap http_parser idf_test ieee802154 json log lwip main mbedtls mqtt newlib nvs_flash openthread partition_table perfmon protobuf-c protocomm pthread sdmmc soc spi_flash spiffs tcp_transport ulp unity usb vfs wear_levelling wifi_provisioning wpa_supplicant xtensa
+-- Component paths: D:/ESP/framework/components/app_trace D:/ESP/framework/components/app_update D:/ESP/framework/components/bootloader D:/ESP/framework/components/bootloader_support D:/ESP/framework/components/bt D:/ESP/framework/components/cmock D:/ESP/framework/components/console D:/ESP/framework/components/cxx D:/ESP/framework/components/driver D:/ESP/framework/components/efuse D:/ESP/framework/components/esp-tls D:/ESP/framework/components/esp_adc D:/ESP/framework/components/esp_app_format D:/ESP/framework/components/esp_coex D:/ESP/framework/components/esp_common D:/ESP/framework/components/esp_eth D:/ESP/framework/components/esp_event D:/ESP/framework/components/esp_gdbstub D:/ESP/framework/components/esp_hid D:/ESP/framework/components/esp_http_client D:/ESP/framework/components/esp_http_server D:/ESP/framework/components/esp_https_ota D:/ESP/framework/components/esp_https_server D:/ESP/framework/components/esp_hw_support D:/ESP/framework/components/esp_lcd D:/ESP/framework/components/esp_local_ctrl D:/ESP/framework/components/esp_mm D:/ESP/framework/components/esp_netif D:/ESP/framework/components/esp_netif_stack D:/ESP/framework/components/esp_partition D:/ESP/framework/components/esp_phy D:/ESP/framework/components/esp_pm D:/ESP/framework/components/esp_psram D:/ESP/framework/components/esp_ringbuf D:/ESP/framework/components/esp_rom D:/ESP/framework/components/esp_system D:/ESP/framework/components/esp_timer D:/ESP/framework/components/esp_wifi D:/ESP/framework/components/espcoredump D:/ESP/framework/components/esptool_py D:/ESP/framework/components/fatfs D:/ESP/framework/components/freertos D:/ESP/framework/components/hal D:/ESP/framework/components/heap D:/ESP/framework/components/http_parser D:/ESP/framework/components/idf_test D:/ESP/framework/components/ieee802154 D:/ESP/framework/components/json D:/ESP/framework/components/log D:/ESP/framework/components/lwip D:/Git/esp/scan/main D:/ESP/framework/components/mbedtls D:/ESP/framework/components/mqtt D:/ESP/framework/components/newlib D:/ESP/framework/components/nvs_flash D:/ESP/framework/components/openthread D:/ESP/framework/components/partition_table D:/ESP/framework/components/perfmon D:/ESP/framework/components/protobuf-c D:/ESP/framework/components/protocomm D:/ESP/framework/components/pthread D:/ESP/framework/components/sdmmc D:/ESP/framework/components/soc D:/ESP/framework/components/spi_flash D:/ESP/framework/components/spiffs D:/ESP/framework/components/tcp_transport D:/ESP/framework/components/ulp D:/ESP/framework/components/unity D:/ESP/framework/components/usb D:/ESP/framework/components/vfs D:/ESP/framework/components/wear_levelling D:/ESP/framework/components/wifi_provisioning D:/ESP/framework/components/wpa_supplicant D:/ESP/framework/components/xtensa
+-- Configuring done
+-- Generating done
+-- Build files have been written to: D:/Git/esp/scan/cmake-build-debug

@@ -1,0 +1,1 @@
+cmd='D:/ESP/tools/cmake/3.24.0/bin/cmake.exe;-DSDKCONFIG=D:/Git/esp/scan/sdkconfig;-DIDF_PATH=D:/ESP/framework;-DIDF_TARGET=esp32;-DPYTHON_DEPS_CHECKED=1;-DPYTHON=python;-DEXTRA_COMPONENT_DIRS=D:/ESP/framework/components/bootloader;-DPROJECT_SOURCE_DIR=D:/Git/esp/scan;-GNinja;<SOURCE_DIR><SOURCE_SUBDIR>'

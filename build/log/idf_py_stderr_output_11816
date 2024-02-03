@@ -1,0 +1,9 @@
+CMake Error at D:/ESP/framework/tools/cmake/build.cmake:266 (message):
+  Failed to resolve component 'esp_driver_gpio'.
+Call Stack (most recent call first):
+  D:/ESP/framework/tools/cmake/build.cmake:302 (__build_resolve_and_add_req)
+  D:/ESP/framework/tools/cmake/build.cmake:595 (__build_expand_requirements)
+  D:/ESP/framework/tools/cmake/project.cmake:547 (idf_build_process)
+  CMakeLists.txt:8 (project)
+
+
